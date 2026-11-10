@@ -1,15 +1,34 @@
 // BAGGU KNOT & BLOOM — EDIT THESE SETTINGS BEFORE PUBLISHING.
-const WHATSAPP_NUMBER = "91XXXXXXXXXX"; // Replace with your number: country code + number, no + or spaces.
+const WHATSAPP_NUMBER = "9699354972"; // Replace with your number: country code + number, no + or spaces.
 const INSTAGRAM_URL = ""; // Optional: paste your Instagram profile URL.
 
 const products = [
-  {id:1,name:"Pastel Pipe-Cleaner Bouquet",category:"flowers",price:299,emoji:"💐",description:"A cheerful handmade mini bouquet.",color:"#f8e5eb"},
-  {id:2,name:"Pink Tulip Stem",category:"flowers",price:99,emoji:"🌷",description:"A sweet little bloom for your desk.",color:"#f6e9df"},
-  {id:3,name:"Daisy Flower Bunch",category:"flowers",price:199,emoji:"🌼",description:"Bright daisies made with care.",color:"#f8f0d9"},
-  {id:4,name:"Cute Gift Bundle",category:"gifts",price:349,emoji:"🎁",description:"A thoughtful handmade surprise.",color:"#eee5f3"},
-  {id:5,name:"Floral Desk Buddy",category:"gifts",price:149,emoji:"🌸",description:"A tiny pop of colour for your space.",color:"#f6e3e7"},
-  {id:6,name:"Custom Flower Gift",category:"gifts",price:399,emoji:"🧸",description:"Ask us about colours and custom designs.",color:"#e9eee2"}
+  {
+    id: 1,
+    name: "Evil Eye Keychain.jpg",
+    category: "All Goodies",
+    price: 600,
+    image: "images/Evil Eye Keychain.jpg",
+    description: "A cheerful handmade mini Keychain."
+  },
+  {
+    id: 2,
+    name: "Sunflower Bouquet.jpg",
+    category: "flowers",
+    price: 299,
+    image: "images/Sunflower Bouquet.jpg",
+    description: "A sweet little handmade bloom."
+  },
+  {
+    id: 3,
+    name: "Flower Clips",
+    category: "flowers",
+    price: 59,
+    image: "images/Flower Clip.jpg",
+    description: "Bright daisies made with care."
+  }
 ];
+
 let cart = [];
 const money = value => "₹" + value;
 const grid = document.getElementById("productGrid");
