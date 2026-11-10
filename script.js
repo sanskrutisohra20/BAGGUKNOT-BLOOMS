@@ -1,20 +1,20 @@
 // BAGGU KNOT & BLOOM — EDIT THESE SETTINGS BEFORE PUBLISHING.
-const WHATSAPP_NUMBER = "91 9699354972"; // Replace with your number: country code + number, no + or spaces.
+const WHATSAPP_NUMBER = "91 9699354972"; 
 const INSTAGRAM_URL = ""; // Optional: paste your Instagram profile URL.
 
-const products = [
+ const products = [
   {
     id: 1,
-    name: "Evil Eye Keychain.jpg",
+    name: "Evil Eye Keychain",
     category: "All Goodies",
-    price: 600,
+    price: 60,
     image: "images/Evil Eye Keychain.jpg",
-    description: "A cheerful handmade mini Keychain."
+    description: "A cheerful handmade mini keychain."
   },
   {
     id: 2,
-    name: "Sunflower Bouquet.jpg",
-    category: "flowers",
+    name: "Sunflower Bouquet",
+    category: "Flowers",
     price: 299,
     image: "images/Sunflower Bouquet.jpg",
     description: "A sweet little handmade bloom."
@@ -22,7 +22,7 @@ const products = [
   {
     id: 3,
     name: "Flower Clips",
-    category: "flowers",
+    category: "Flowers",
     price: 59,
     image: "images/Flower Clip.jpg",
     description: "Bright daisies made with care."
@@ -36,7 +36,9 @@ const grid = document.getElementById("productGrid");
 function renderProducts(filter="all") {
   grid.innerHTML = products.filter(p => filter==="all" || p.category===filter).map(p => `
     <article class="product-card">
-      <div class="product-art" style="--art:${p.color}">${p.emoji}</div>
+   <div class="product-art">
+    <img src="${p.image}" alt="${p.name}">
+</div>
       <div class="product-info">
         <h3>${p.name}</h3><p>${p.description}</p>
         <div class="product-bottom"><span class="price">${money(p.price)}</span>
