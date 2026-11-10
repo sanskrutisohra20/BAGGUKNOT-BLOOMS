@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Handmade pipe-cleaner flowers, cute gifts and floral creations by Baggu Knot & Bloom.">
+  <title>Baggu Knot & Bloom | Handmade with Love</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">A little handmade happiness, made just for you 🌷</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Baggu Knot and Bloom home">
+      <span class="brand-mark">🎀</span>
+      <span><strong>Baggu Knot & Bloom</strong><small>HANDMADE WITH LOVE</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Home</a><a href="#shop">Shop</a><a href="#about">Our story</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="cart-link" href="#shop">♡ <span id="cartCount">0</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">LITTLE THINGS, BIG JOY</p>
+        <h1>Made by hand.<br><em>Blooming with love.</em></h1>
+        <p class="hero-text">Discover sweet handmade creations, colourful pipe-cleaner flowers and thoughtful gifts made to brighten someone's day.</p>
+        <a class="button button-dark" href="#shop">Explore the collection <span>→</span></a>
+        <div class="hero-note">♡ Handmade • Thoughtful • One of a kind</div>
+      </div>
+      <div class="hero-art" aria-label="Decorative handmade flower illustration">
+        <div class="sun"></div><div class="flower flower-one">🌸</div><div class="flower flower-two">🌷</div>
+        <div class="flower flower-three">🌼</div><div class="ribbon">made<br>with ♡</div>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <span>✿ Made with care</span><span>♡ Perfect for gifting</span><span>🌷 Custom orders welcome</span>
+    </section>
+
+    <section class="shop section" id="shop">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE LITTLE SHOP</p><h2>Find your happy bloom</h2></div>
+        <p>Handmade pieces for your desk, your room<br>or someone special.</p>
+      </div>
+      <div class="filters" aria-label="Product filters">
+        <button class="filter active" data-filter="all">All goodies</button>
+        <button class="filter" data-filter="flowers">Flowers</button>
+        <button class="filter" data-filter="gifts">Cute gifts</button>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="cart-panel">
+        <div><p class="eyebrow">YOUR LITTLE BUNDLE</p><h3>Shopping basket <span id="cartCountLarge">(0)</span></h3><p id="cartItems" class="cart-items">Your basket is waiting for something lovely.</p></div>
+        <div class="cart-action"><strong id="cartTotal">₹0</strong><button class="button button-dark" id="orderButton">Order on WhatsApp ↗</button></div>
+      </div>
+      <p class="small-note">Product photos and prices shown here are sample content. Update them with your actual products before sharing your store.</p>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-art">🌷<span>♡</span>🌼</div>
+      <div><p class="eyebrow">A LITTLE ABOUT US</p><h2>Small creations,<br><em>made with a lot of heart.</em></h2>
+      <p>Baggu Knot & Bloom is a tiny creative corner for handmade flowers, cheerful crafts and thoughtful gifts. Every piece is made with care, so your gift feels a little more personal.</p>
+      <a href="#contact" class="text-link">Say hello to us →</a></div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="eyebrow">LET'S MAKE SOMETHING LOVELY</p><h2>Have an idea in mind?</h2>
+      <p>Ask about custom colours, bouquets or a special handmade gift.</p>
+      <a class="button button-dark" id="contactWhatsApp" href="#">Chat with us on WhatsApp ↗</a>
+      <p class="contact-email">You can also add your Instagram link in <code>script.js</code>.</p>
+    </section>
+  </main>
+
+  <footer><a class="footer-brand" href="#home">🎀 Baggu Knot & Bloom</a><span>Made with ♡ and a little bit of magic.</span><span>© <span id="year"></span> Baggu Knot & Bloom</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
