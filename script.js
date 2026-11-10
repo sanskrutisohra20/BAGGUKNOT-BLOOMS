@@ -1,5 +1,5 @@
 // BAGGU KNOT & BLOOM — EDIT THESE SETTINGS BEFORE PUBLISHING.
-const WHATSAPP_NUMBER = "9699354972"; // Replace with your number: country code + number, no + or spaces.
+const WHATSAPP_NUMBER = "919699354972"; // Replace with your number: country code + number, no + or spaces.
 const INSTAGRAM_URL = ""; // Optional: paste your Instagram profile URL.
 
 const products = [
