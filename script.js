@@ -1,5 +1,5 @@
 // BAGGU KNOT & BLOOM — EDIT THESE SETTINGS BEFORE PUBLISHING.
-const WHATSAPP_NUMBER = "91 9699354972"; 
+const WHATSAPP_NUMBER = "919699534972";
 const INSTAGRAM_URL = ""; // Optional: paste your Instagram profile URL.
 
  const products = [
